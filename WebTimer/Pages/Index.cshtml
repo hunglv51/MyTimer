@@ -1,0 +1,28 @@
+﻿@page
+@model WebTimer.Pages.IndexModel
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index 234</h1>
+<div id="logs">
+
+</div>
+
+<script src="js/lib/microsoft/signalr/dist/browser/signalr.js"></script>
+<script>
+    var connection = new signalR.HubConnectionBuilder().withUrl("/logs").build();
+    connection.on("GetLogs", function (msg) {
+        
+        var newLog = document.createElement("p");
+        newLog.innerText = msg;
+        document.getElementById('logs').appendChild(newLog);
+    });
+    connection.start().then(function () {
+        console.log("success");
+    }).catch(function (err) {
+        debugger
+        return console.error(err.toString());
+    });
+</script>
+

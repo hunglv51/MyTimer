@@ -1,0 +1,9 @@
+C:\Users\Viet Hung\source\repos\Timer\Timer\bin\Debug\netcoreapp3.1\Timer.deps.json
+C:\Users\Viet Hung\source\repos\Timer\Timer\bin\Debug\netcoreapp3.1\Timer.dll
+C:\Users\Viet Hung\source\repos\Timer\Timer\bin\Debug\netcoreapp3.1\Timer.pdb
+C:\Users\Viet Hung\source\repos\Timer\Timer\obj\Debug\netcoreapp3.1\Timer.csprojAssemblyReference.cache
+C:\Users\Viet Hung\source\repos\Timer\Timer\obj\Debug\netcoreapp3.1\Timer.AssemblyInfoInputs.cache
+C:\Users\Viet Hung\source\repos\Timer\Timer\obj\Debug\netcoreapp3.1\Timer.AssemblyInfo.cs
+C:\Users\Viet Hung\source\repos\Timer\Timer\obj\Debug\netcoreapp3.1\Timer.csproj.CoreCompileInputs.cache
+C:\Users\Viet Hung\source\repos\Timer\Timer\obj\Debug\netcoreapp3.1\Timer.dll
+C:\Users\Viet Hung\source\repos\Timer\Timer\obj\Debug\netcoreapp3.1\Timer.pdb
