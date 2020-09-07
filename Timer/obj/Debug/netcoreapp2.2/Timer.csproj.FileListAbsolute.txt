@@ -1,0 +1,9 @@
+D:\MyTimer\MyTimer\Timer\obj\Debug\netcoreapp2.2\Timer.csproj.CoreCompileInputs.cache
+D:\MyTimer\MyTimer\Timer\obj\Debug\netcoreapp2.2\Timer.AssemblyInfoInputs.cache
+D:\MyTimer\MyTimer\Timer\obj\Debug\netcoreapp2.2\Timer.AssemblyInfo.cs
+D:\MyTimer\MyTimer\Timer\bin\Debug\netcoreapp2.2\Timer.deps.json
+D:\MyTimer\MyTimer\Timer\bin\Debug\netcoreapp2.2\Timer.dll
+D:\MyTimer\MyTimer\Timer\bin\Debug\netcoreapp2.2\Timer.pdb
+D:\MyTimer\MyTimer\Timer\obj\Debug\netcoreapp2.2\Timer.dll
+D:\MyTimer\MyTimer\Timer\obj\Debug\netcoreapp2.2\Timer.pdb
+D:\MyTimer\MyTimer\Timer\obj\Debug\netcoreapp2.2\Timer.csprojAssemblyReference.cache

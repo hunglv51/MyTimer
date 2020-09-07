@@ -11,12 +11,14 @@ namespace WorkTimer
 
         public INotifier Notifier { get; private set; }
 
+        public bool IsRunning { get; private set; }
+
         public Worker()
         {
             _random = new Random();
         }
 
-        public void SetDisplayer(INotifier notifier)
+        public Worker(INotifier notifier) : this()
         {
             Notifier = notifier;
         }
@@ -27,6 +29,7 @@ namespace WorkTimer
         {
             _timer = new Timer();
             TakeRest();
+            IsRunning = true;
         }
 
         public void TakeRest()
@@ -48,7 +51,7 @@ namespace WorkTimer
             var nextWorkDuration = _random.Next(1, 10);
             Notifier.Notify(string.Format("Toi dang lam task thoi gian {0} s", nextWorkDuration));
             _timer.Interval = nextWorkDuration * 1000;
-            _timer.Elapsed += (s, e) => TakeRest();
+            _timer.Elapsed += (s, evt) => TakeRest();
             _timer.Elapsed -= DoWork;
             _timer.Start();
         }
@@ -57,6 +60,7 @@ namespace WorkTimer
         {
             _timer.Stop();
             _timer.Dispose();
+            IsRunning = false;
         }
 
         public void Dispose()

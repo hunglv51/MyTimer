@@ -1,0 +1,14 @@
+D:\MyTimer\MyTimer\ConsoleTimer\obj\Debug\netcoreapp2.2\ConsoleTimer.csproj.CoreCompileInputs.cache
+D:\MyTimer\MyTimer\ConsoleTimer\obj\Debug\netcoreapp2.2\ConsoleTimer.AssemblyInfoInputs.cache
+D:\MyTimer\MyTimer\ConsoleTimer\obj\Debug\netcoreapp2.2\ConsoleTimer.AssemblyInfo.cs
+D:\MyTimer\MyTimer\ConsoleTimer\bin\Debug\netcoreapp2.2\ConsoleTimer.deps.json
+D:\MyTimer\MyTimer\ConsoleTimer\bin\Debug\netcoreapp2.2\ConsoleTimer.runtimeconfig.json
+D:\MyTimer\MyTimer\ConsoleTimer\bin\Debug\netcoreapp2.2\ConsoleTimer.runtimeconfig.dev.json
+D:\MyTimer\MyTimer\ConsoleTimer\bin\Debug\netcoreapp2.2\ConsoleTimer.dll
+D:\MyTimer\MyTimer\ConsoleTimer\bin\Debug\netcoreapp2.2\ConsoleTimer.pdb
+D:\MyTimer\MyTimer\ConsoleTimer\bin\Debug\netcoreapp2.2\Timer.dll
+D:\MyTimer\MyTimer\ConsoleTimer\bin\Debug\netcoreapp2.2\Timer.pdb
+D:\MyTimer\MyTimer\ConsoleTimer\obj\Debug\netcoreapp2.2\ConsoleTimer.csprojAssemblyReference.cache
+D:\MyTimer\MyTimer\ConsoleTimer\obj\Debug\netcoreapp2.2\ConsoleTimer.csproj.CopyComplete
+D:\MyTimer\MyTimer\ConsoleTimer\obj\Debug\netcoreapp2.2\ConsoleTimer.dll
+D:\MyTimer\MyTimer\ConsoleTimer\obj\Debug\netcoreapp2.2\ConsoleTimer.pdb

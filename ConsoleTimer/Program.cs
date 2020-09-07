@@ -9,8 +9,7 @@ namespace ConsoleTimer
         {
             Console.WriteLine("Hello World!");
             var displayer = new ConsoleNotifier();
-            var worker = new Worker();
-            worker.SetDisplayer(displayer);
+            var worker = new Worker(displayer);
             worker.Start();
             Console.ReadKey();
         }

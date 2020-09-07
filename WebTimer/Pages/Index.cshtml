@@ -1,28 +1,27 @@
 ﻿@page
-@model WebTimer.Pages.IndexModel
+@model IndexModel
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Home page";
 }
 
-<h1>Index 234</h1>
-<div id="logs">
+<style>
+    #logs {
+        max-height: 700px;
+        overflow: auto;
+    }
+</style>
 
+<div class="text-center">
+    <h1 class="display-4">Welcome 123</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
 </div>
+<div id="logs"></div>
 
-<script src="js/lib/microsoft/signalr/dist/browser/signalr.js"></script>
+<script src="~/lib/@@aspnet/signalr/dist/browser/signalr.js"></script>
 <script>
-    var connection = new signalR.HubConnectionBuilder().withUrl("/logs").build();
-    connection.on("GetLogs", function (msg) {
-        
-        var newLog = document.createElement("p");
-        newLog.innerText = msg;
-        document.getElementById('logs').appendChild(newLog);
+    var connection = new signalR.HubConnectionBuilder().withUrl("/hubs").build();
+    connection.on("ReceiveMessage", function (msg) {
+        $("#logs").append("<p>" + msg + "</p>");
     });
-    connection.start().then(function () {
-        console.log("success");
-    }).catch(function (err) {
-        debugger
-        return console.error(err.toString());
-    });
+    connection.start().then(function () { console.log("sc"); }, function (e) { console.log(e); });
 </script>
-
